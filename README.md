@@ -80,7 +80,7 @@ var array = require( '@stdlib/ndarray-array' );
 var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 0.0, 6.0 ] ] ] );
 // returns <ndarray>
 
-// Perform operation:
+// Perform reduction:
 var out = countFalsy( x );
 // returns <ndarray>
 
@@ -108,7 +108,7 @@ var ndarray2array = require( '@stdlib/ndarray-to-array' );
 var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 0.0, 6.0 ] ] ] );
 // returns <ndarray>
 
-// Perform operation:
+// Perform reduction:
 var out = countFalsy( x, {
     'dims': [ 1, 2 ]
 });
@@ -128,7 +128,7 @@ var ndarray2array = require( '@stdlib/ndarray-to-array' );
 var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 0.0, 6.0 ] ] ] );
 // returns <ndarray>
 
-// Perform operation:
+// Perform reduction:
 var out = countFalsy( x, {
     'dims': [ 1, 2 ],
     'keepdims': true
@@ -156,7 +156,7 @@ var y = empty( [], {
     'dtype': 'int32'
 });
 
-// Perform operation:
+// Perform reduction:
 var out = countFalsy.assign( x, y );
 // returns <ndarray>
 
@@ -193,7 +193,7 @@ var y = empty( [ 3 ], {
     'dtype': 'int32'
 });
 
-// Perform operation:
+// Perform reduction:
 var out = countFalsy.assign( x, y, {
     'dims': [ 1, 2 ]
 });
