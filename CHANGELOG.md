@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-21)
+## Unreleased (2025-12-23)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`46d9a44`](https://github.com/stdlib-js/stdlib/commit/46d9a441ddf70ca13ac2a8d61cf54c628876e537) - **docs:** improve doctests for ndarray instances in `ndarray/count-falsy` _(by Athan Reines)_
 -   [`67f4feb`](https://github.com/stdlib-js/stdlib/commit/67f4feb3b59fc5466e8302977634d3d5113467a8) - **style:** remove space _(by Athan Reines)_
 -   [`6f6da0a`](https://github.com/stdlib-js/stdlib/commit/6f6da0afaa12ef31691ae659f6a005f140d81cd1) - **fix:** add missing argument to format strings _(by Philipp Burckhardt)_
 -   [`d48a363`](https://github.com/stdlib-js/stdlib/commit/d48a36343854a0d824eaa97ff49ac7e5727c7249) - **docs:** update comment _(by Athan Reines)_
