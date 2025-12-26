@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`345c740`](https://github.com/stdlib-js/stdlib/commit/345c7404530f8c5ba7215bfe6e25cc5e4a0af640) - **docs:** improve doctests for ndarray instances in `ndarray/count-falsy` [(#9377)](https://github.com/stdlib-js/stdlib/pull/9377) _(by kaushal-kumar-it)_
 -   [`daf2cc8`](https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc) - **refactor:** add writable parameter to `ndarray/base/spread-dimensions` [(#9370)](https://github.com/stdlib-js/stdlib/pull/9370) _(by Muhammad Haris, Athan Reines)_
 -   [`46d9a44`](https://github.com/stdlib-js/stdlib/commit/46d9a441ddf70ca13ac2a8d61cf54c628876e537) - **docs:** improve doctests for ndarray instances in `ndarray/count-falsy` _(by Athan Reines)_
 -   [`67f4feb`](https://github.com/stdlib-js/stdlib/commit/67f4feb3b59fc5466e8302977634d3d5113467a8) - **style:** remove space _(by Athan Reines)_
@@ -51,11 +52,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   kaushal-kumar-it
 
 </section>
 
