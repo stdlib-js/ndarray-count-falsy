@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@deno/mod.js';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@v0.1.0-deno/mod.js';
 ```
 
 #### countFalsy( x\[, options] )
@@ -197,7 +197,7 @@ var bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bern
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-by@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@deno/mod.js';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-count-falsy@v0.1.0-deno/mod.js';
 
 var x = zeros( [ 2, 4, 5 ], {
     'dtype': 'float64'
